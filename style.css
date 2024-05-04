@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container{
+  background-color: rgb(34, 30, 30);
+  padding: 20px 80px;
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-photo{
+  width: 150px;
+}
+
+.menus{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menus > li{
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.menus > li:hover{
+  color: rgb(199, 67, 93);
+}
