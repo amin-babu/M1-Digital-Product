@@ -159,6 +159,11 @@
   padding: 20px 15px;
   color: white;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.box:hover{
+  box-shadow: rgba(218, 217, 217, 0.02) 0px 1px 3px 0px, rgba(250, 249, 249, 0.15) 0px 0px 0px 1px;
 }
 
 .icon{
@@ -189,4 +194,53 @@
 
 .box-description{
   padding: 5px;
+}
+
+/* footer design */
+
+footer{
+  background: linear-gradient(15deg, black, rgb(37, 37, 37));
+}
+
+.footer-container{
+  padding: 50px 120px;
+  display: flex;
+  justify-content: space-between;
+  /* background: linear-gradient(15deg, black, rgb(37, 37, 37)); */
+  height: 150px;
+  position: relative;
+}
+
+.footer-box{
+  font-size: 16px;
+  color: white;
+}
+
+.f-1st-box{
+  width: 30%;
+}
+
+.footer-box > h4{
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-box > a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 7px;
+}
+
+.footer-box > p{
+  margin-bottom: 7px;
+}
+
+.footer-logo{
+  height: 40px; 
+}
+
+.hr1{
+  margin: 0px 120px;
 }
